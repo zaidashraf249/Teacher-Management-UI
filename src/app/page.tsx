@@ -86,7 +86,7 @@ export default function TeacherDashboard() {
                     placeholder="e.g. Mr. Ahuja"
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
-                    className="focus:ring-2 focus:ring-purple-300"
+                    className="focus:ring-2 focus:ring-purple-300 text-white"
                   />
                 </div>
 
@@ -99,7 +99,7 @@ export default function TeacherDashboard() {
                     placeholder="e.g. Science"
                     value={form.subject}
                     onChange={(e) => setForm({ ...form, subject: e.target.value })}
-                    className="focus:ring-2 focus:ring-purple-300"
+                    className="focus:ring-2 focus:ring-purple-300 text-white"
                   />
                 </div>
 
@@ -113,7 +113,7 @@ export default function TeacherDashboard() {
                     placeholder="e.g. ahuja@example.com"
                     value={form.email}
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
-                    className="focus:ring-2 focus:ring-purple-300"
+                    className="focus:ring-2 focus:ring-purple-300 text-white"
                   />
                 </div>
               </div>
